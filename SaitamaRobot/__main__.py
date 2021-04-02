@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups. My support chat - → @MrPepe_Support
+I am Prime version of Superman.
+I specialize in managing anime themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a loser For Fun and help admins manage their groups with laughs 😂! Have a look at the following for an idea of some of \
+I'm the strongest superhero on earth and help admins manage their groups like it's a piece of cake 😎! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -100,9 +100,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/3fb433d4a0c707ef01f56.jpg"
+SAITAMA_IMG = "https://telegra.ph//file/3261b18f0fe9f5737359b.jpg"
 
-DONATE_STRING = """NO DON'T!!"""
+DONATE_STRING = """NO!!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,24 +227,18 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support Group",
+                                text="Support Group 🚑",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="Watch Anime!",
-                                url="https://t.me/Anime_Wars",
+                                text="Superman Prime Support",
+                                url="https://t.me/sprime_support",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Anime Chat",
-                                url="https://t.me/Anime_Chat_English",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/ImmaGoku/SaitamaRobot",  # Like this you can modify bot with your favorite sentences and if you are developer then codes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                text="Anime Memes",
+                                url="https://t.me/anime_memestan",
                             )
                         ],
                     ]
